@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Music Player</title>
 
     <!-- My CSS -->
     <link rel="stylesheet" href="./src/css/reset.css">
@@ -16,18 +16,28 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Title</h1>
+        <header class="player-section">
+            <h1>Music Player</h1>
             <div>
-                <p>Playing:</p>
-                <p class="songName"></p>
+                <p>Playing: <span class="songName">asdas</span></p>
             </div>
-            <!-- <span>volume</span> -->
-            <!-- <input type="range" class="volume"> -->
+            <div class="div-controllers">
+                <div class="controller">
+                    <p>Mute</p>
+                    <input type="checkbox" id="mute-checkbox">
+                </div>
+                <div class="controller">
+                    <p>Volume</p>
+                    <input type="range" id="volume-picker" class="volume" step="0.1" min="0" max="1" value="0.5">
+                </div>
+            </div>
         </header>
-        <main>
+        <main class="player-section">
             
         </main>
+        <footer class="player-section">
+
+        </footer>
     </div>
 </body>
 </html>
