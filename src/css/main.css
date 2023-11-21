@@ -1,18 +1,32 @@
 body {
     width: 100%;
-    border: 1px solid purple;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .container {
-    width: 550px;
+    width: 375px;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 1px solid red;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+    gap: 8px;
+}
+
+.player-section {
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
 }
 
 .div-controllers {
@@ -20,11 +34,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .controller {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 }
