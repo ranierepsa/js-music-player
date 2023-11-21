@@ -1,2 +1,2 @@
-# js-piano
-Piano made in JS Vanilla. Challenge proposed by DIO.me
+# Music Palyer
+Music Player made in JS Vanilla.
